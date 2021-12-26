@@ -3,15 +3,15 @@ This is not yet fully functional! The intent is to be able to bootstrap a Hashis
 
 Hashistack is made up of:
 * [Consul](https://www.consul.io) (service discovery, service mesh)
-* Nomad (scheduling)
-* Vault (secrets management)
+* [Nomad](https://www.nomadproject.io) (scheduling)
+* [Vault](https://www.vaultproject.io) (secrets management)
 
 Additionally, we intend to add:
-* Prometheus, for metrics and monitoring
-* Loki-stack, for log aggregation
-* Tempo, for tracing
-* Grafana for visibility of observability
-* Envoy, for ingress into Nomad, where public services are required.
+* [Prometheus](https://prometheus.io), for metrics and monitoring
+* [Loki-stack](https://grafana.com/oss/loki/), for log aggregation
+* [Tempo](https://grafana.com/oss/tempo/), for tracing
+* [Grafana](https://grafana.com/oss/grafana/) for visibility of observability
+* [Envoy](https://www.envoyproxy.io), for ingress into Nomad, where public services are required.
 
 ## Pre-requisites/dependencies
 * [Consul](https://www.consul.io)
