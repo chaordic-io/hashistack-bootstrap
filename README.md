@@ -1,5 +1,17 @@
 # Bootstrap Hashistack for any cloud or on-prem
-This is not yet fully functional! The intent is to be able to bootstrap a Hashistack (Consul, Nomad, Vault), with a secure, production-ready setup on any cloud or on-prem with a minimum of operator intervention.
+This is not yet fully functional! The intent is to be able to bootstrap a Hashistack with a secure, production-ready setup on any cloud or on-prem with a minimum of operator intervention.
+
+Hashistack is made up of:
+* Consul (service discovery, service mesh)
+* Nomad (scheduling)
+* Vault (secrets management)
+
+Additionally, we intend to add:
+* Prometheus, for metrics and monitoring
+* Loki-stack, for log aggregation
+* Tempo, for tracing
+* Grafana for visibility of observability
+* Envoy, for ingress into Nomad, where public services are required.
 
 ## Pre-requisites/dependencies
 * Consul
