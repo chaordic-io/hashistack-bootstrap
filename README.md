@@ -4,6 +4,7 @@ This is not yet fully functional! The intent is to be able to bootstrap a Hashis
 ## Pre-requisites/dependencies
 * Consul
 * Ansible
+* Assumes hosts are running Debian/Ubuntu
 * SSH access to hosts to install onto
 * sshpass (if using password auth)
 
