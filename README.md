@@ -1,3 +1,6 @@
+# Bootstrap Hashistack for any cloud or on-prem
+This is not yet fully functional! The intent is to be able to bootstrap a Hashistack (Consul, Nomad, Vault), with a secure, production-ready setup on any cloud or on-prem with a minimum of operator intervention.
+
 ## Pre-requisites/dependencies
 * Consul
 * Ansible
