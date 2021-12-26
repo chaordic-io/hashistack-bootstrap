@@ -23,9 +23,10 @@ consul tls cert create -server -dc dc1 -domain consul
 
 ## TODO
 
-[x] Fix service startup
-[x] Auto startup of all nodes
-[ ] Enable ACL
+- [x] Fix service startup
+- [x] Auto startup of all nodes
+- [ ] Enable ACL
+- [ ] Automate keygen etc
 
 
 
